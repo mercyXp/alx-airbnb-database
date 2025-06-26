@@ -30,7 +30,7 @@ A table is in **Third Normal Form (3NF)** if:
 ### 🔹 Step 3: Third Normal Form (3NF)
 - Verified that **no non-key attribute** depends on another non-key attribute.
 
-#### 🎯 Analysis & Confirmation by Table:
+## Analysis & Confirmation by Table:
 
 ---
 
@@ -62,7 +62,7 @@ A table is in **Third Normal Form (3NF)** if:
 
 ---
 
-### 🌟 **Review**
+### **Review**
 - All non-key fields (`rating`, `comment`) are fully dependent on `review_id`.
 - No derived or dependent fields among non-keys.
 - 3NF Compliant
@@ -71,7 +71,7 @@ A table is in **Third Normal Form (3NF)** if:
 
 ### **Message**
 - All attributes (`sender_id`, `recipient_id`, `message_body`) depend directly on `message_id`.
-- ✅ 3NF Compliant
+- 3NF Compliant
 
 ---
 

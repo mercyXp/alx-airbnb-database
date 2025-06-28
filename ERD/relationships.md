@@ -5,7 +5,7 @@ This defines and explains the relationships between entities in the Airbnb Clone
 ---
 
 ## Crow’s Foot Symbols (Legend)
-(img)[https://github.com/mercyXp/alx-airbnb-database/blob/main/ERD/Crows-Foot.png]
+![img](https://github.com/mercyXp/alx-airbnb-database/blob/main/ERD/Crows-Foot.png)
 
 ---
 

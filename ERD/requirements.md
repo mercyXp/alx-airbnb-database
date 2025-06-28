@@ -1,4 +1,4 @@
-# 📘 Database Specification – Airbnb Clone
+# Database Specification – Airbnb Clone
 
 This specification outlines the structure of the relational database powering the Airbnb-like application. It includes detailed entity definitions, attribute types, constraints, and indexing strategy.
 
@@ -84,26 +84,26 @@ This specification outlines the structure of the relational database powering th
 
 ## 🔒 Constraints Summary
 
-### 🔐 User Table
+### User Table
 - Unique constraint on `email`
 - Non-null constraints on all required fields
 
-### 🏠 Property Table
+### Property Table
 - Foreign key on `host_id`
 - Non-null constraints on essential fields
 
-### 🧾 Booking Table
+### Booking Table
 - Foreign keys on `property_id` and `user_id`
 - `status` limited to: `pending`, `confirmed`, `canceled`
 
-### 💰 Payment Table
+### Payment Table
 - Foreign key on `booking_id`
 
-### 🌟 Review Table
+### Review Table
 - Rating must be between 1 and 5
 - Foreign keys on `property_id` and `user_id`
 
-### 🗨️ Message Table
+###  Message Table
 - Foreign keys on `sender_id` and `recipient_id`
 
 ---
